@@ -28,7 +28,7 @@ public class ARSimple extends ARActivity {
 	protected ARRenderer supplyRenderer() {
 		
 		mng = new ResourceManager(this);
-    	mng.loadFBXFile("models/helix.fbx");
+    	mng.loadFBXFile("models/rasta.fbx");
     	FBXRenderer fbxr = new FBXRenderer();
     	fbxr.addModel(mng.getModel());
 		return  fbxr;
